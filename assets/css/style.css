@@ -1,0 +1,71 @@
+
+.gameheader {
+    margin-top: 30px;       
+    color: white;
+    margin-bottom: 30px;
+}
+
+h1 {
+    text-align: center;
+}
+
+body {
+    background-image: url("../images/background.jpeg");
+}
+
+.row.instructions {
+    margin: auto;
+}
+
+.instructions {
+    background: grey;
+}
+
+p {
+    color: black;
+}
+
+.row.buttons {
+    margin: auto;
+}
+
+#bear {
+    margin-top: 50px;
+    width: 100px;
+}
+
+#dog {
+    margin-top: 50px;
+    width: 100px;
+}
+
+#horse {
+    margin-top: 50px;
+    width: 100px;
+}
+
+#pig {
+    margin-top: 50px;
+    width: 100px;
+}
+
+.buttons {
+    text-align: center;
+}
+
+.col-sm-6 {
+    background: grey;
+    color: white;
+    margin-top: 30px;
+    height: 100px;
+    text-align: center;
+}
+
+.row.score {
+    margin: auto;
+    text-align: center;
+}
+
+.row.wins {
+    margin-top: 30px;
+}

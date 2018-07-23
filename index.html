@@ -4,33 +4,88 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <script   src="https://code.jquery.com/jquery-3.3.1.min.js"   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="   crossorigin="anonymous"></script>
-    <title>Page Title</title>
+    <title>Animal Emoji Game</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css"/>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
     <script src="main.js"></script>
 
 </head>
 
 <body>
-
-    <div class ="jumbotron">
-        <h1> Crystal Collector!</h1>
-    </div>
     
 
-        <div class = "container">
-             <div class ="row">
-                <div class = "col-sm-12">
-                    <p>You will be given a random number at the start of the game.</p>
-                    <p>There are four crystals below. By clicking on a crystalyou will add a specific amount of points to your total score.</p>
-                    <p>You win the game by matching your total score to the random number, you lose the game if your total score goes above the random number.</p>
-                    <p> The value of each crystal is hidden from you until you click on it.</p>
-                    <p> Each time when the game starts, the game will change the values of each crystal.</p>
+    <div class="container">
+        <div class="row gameheader">
+            <div class="col-sm-12">
+                <h1>Emoji Collector</h1>
+            </div>    
+                
+        </div>
+            
+        <div class="container">   
+            <div class="row instructions">
+                <div class="col-sm-12">
+                        <p>You will be given a random number at the start of the game.</p>
+                        <p>There are four emojis below. By clicking on an emoji you will add a specific amount of points to your total score.</p>
+                        <p>You win the game by matching your total score to the random number, you lose the game if your total score goes above the random number.</p>
+                        <p> The value of each emoji is hidden from you until you click on it.</p>
+                        <p> Each time when the game starts, the game will change the values of each emoji.</p>
+                </div>
+        </div>
+        
+        
+    
+        <div class="container">
+            <div class="row score">
+                <div class="col-sm-6">
+                    <h2>Match this Number!</h2>
+                        <p id="computerScore"></p>
+                </div>
+
+                <div class="col-sm-6">
+                    <h2>Your Score!</h2>
+                        <p id="userScore"></p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container">
+            <div class="row buttons">
+                <div class="col-sm-3">
+                    <img src="assets/images/bear.png" alt"bear" id="bear">
+                </div>
+
+                <div class="col-sm-3">
+                    <img src="assets/images/dog.png" alt"dog" id="dog">
+                </div>
+
+                <div class="col-sm-3">
+                    <img src="assets/images/horse.png" alt="horse" id="horse">
+                </div>
+
+                <div class="col-sm-3">
+                    <img src="assets/images/pig.png" alt="pig" id="pig">
                 </div>
             </div>
         </div>
 
+        <div class= "container">
+            <div class="row wins">
+                <div class="col-sm-6">
+                    <h2>WINS</h2>
+                        <p id="userWins"></p>
+                </div>
+                <div class="col-sm-6">
+                    <h2>LOSSES</h2>
+                        <p id="userLosses"></p>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    
 
 </body>
 
